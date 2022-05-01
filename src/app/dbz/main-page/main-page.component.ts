@@ -15,9 +15,6 @@ export class MainPageComponent  {
   }
 
   
-  agregarNuevoPersonaje( argumento:Personaje ){
-    this.personajes.push(argumento);    
-  }
 
-  constructor( private dbzService: DbzService ){}
+  constructor( ){}
 }

@@ -4,16 +4,13 @@
 <div class="row">
 
     <div class="col">
-        <app-listado-personajes [personajes]="personajes">
+        <app-listado-personajes>
 
         </app-listado-personajes>
     </div>
 
     <div class="col">
-        <app-agregar-personajes             
-            [nuevo]="nuevo"
-            (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"
-        >
+        <app-agregar-personajes [nuevo]="nuevo">
        </app-agregar-personajes>
     </div>
 </div>
