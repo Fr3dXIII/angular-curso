@@ -1,0 +1,19 @@
+<h1>DBZ</h1>
+<hr>
+
+<div class="row">
+
+    <div class="col">
+        <app-listado-personajes [personajes]="personajes">
+
+        </app-listado-personajes>
+    </div>
+
+    <div class="col">
+        <app-agregar-personajes             
+            [nuevo]="nuevo"
+            (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"
+        >
+       </app-agregar-personajes>
+    </div>
+</div>
